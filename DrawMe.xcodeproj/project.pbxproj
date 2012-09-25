@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96B3F4816119E6E00EB2045 /* outside-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C96B3F4716119E6E00EB2045 /* outside-icon.png */; };
+		C96B3F4A16119EA000EB2045 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = C96B3F4916119EA000EB2045 /* icon57.png */; };
+		C96B3F511611A5C600EB2045 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = C96B3F501611A5C600EB2045 /* green.png */; };
+		C9D069DE1611568400A4FB42 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D069DD1611568400A4FB42 /* background@2x.png */; };
+		C9D069E11611580A00A4FB42 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D069E01611580A00A4FB42 /* button.png */; };
+		C9D069E41611590200A4FB42 /* button-create.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9D069E21611590200A4FB42 /* button-create.gif */; };
+		C9D069E51611590200A4FB42 /* button-explore.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9D069E31611590200A4FB42 /* button-explore.gif */; };
+		C9D069EB1611631F00A4FB42 /* MPMDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D069EA1611631F00A4FB42 /* MPMDrawingViewController.m */; };
+		C9D069EF1611696800A4FB42 /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D069ED1611696800A4FB42 /* DarkGreen.png */; };
+		C9D069F01611696800A4FB42 /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D069EE1611696800A4FB42 /* DarkOrange.png */; };
+		C9D069F416116A9400A4FB42 /* MPMExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D069F316116A9400A4FB42 /* MPMExploreViewController.m */; };
+		C9D069F716116B1900A4FB42 /* iphone_background_0102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9D069F616116B1900A4FB42 /* iphone_background_0102.jpg */; };
 		C9DF998416114AAE0096A9C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF998316114AAE0096A9C4 /* UIKit.framework */; };
 		C9DF998616114AAE0096A9C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF998516114AAE0096A9C4 /* Foundation.framework */; };
 		C9DF998816114AAE0096A9C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF998716114AAE0096A9C4 /* CoreGraphics.framework */; };
@@ -17,10 +29,25 @@
 		C9DF999816114AAE0096A9C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DF999716114AAE0096A9C4 /* Default@2x.png */; };
 		C9DF999A16114AAE0096A9C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DF999916114AAE0096A9C4 /* Default-568h@2x.png */; };
 		C9DF999D16114AAE0096A9C4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF999B16114AAE0096A9C4 /* MainStoryboard.storyboard */; };
-		C9DF99A016114AAE0096A9C4 /* MPMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF999F16114AAE0096A9C4 /* MPMViewController.m */; };
+		C9DF99A016114AAE0096A9C4 /* MPMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF999F16114AAE0096A9C4 /* MPMMenuViewController.m */; };
+		C9DF99B0161150EA0096A9C4 /* MPMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF99AF161150EA0096A9C4 /* MPMSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C96B3F4716119E6E00EB2045 /* outside-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outside-icon.png"; sourceTree = "<group>"; };
+		C96B3F4916119EA000EB2045 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		C96B3F501611A5C600EB2045 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		C9D069DD1611568400A4FB42 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		C9D069E01611580A00A4FB42 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		C9D069E21611590200A4FB42 /* button-create.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "button-create.gif"; path = "../button-create.gif"; sourceTree = "<group>"; };
+		C9D069E31611590200A4FB42 /* button-explore.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "button-explore.gif"; path = "../button-explore.gif"; sourceTree = "<group>"; };
+		C9D069E91611631F00A4FB42 /* MPMDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMDrawingViewController.h; sourceTree = "<group>"; };
+		C9D069EA1611631F00A4FB42 /* MPMDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMDrawingViewController.m; sourceTree = "<group>"; };
+		C9D069ED1611696800A4FB42 /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
+		C9D069EE1611696800A4FB42 /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
+		C9D069F216116A9400A4FB42 /* MPMExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMExploreViewController.h; sourceTree = "<group>"; };
+		C9D069F316116A9400A4FB42 /* MPMExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMExploreViewController.m; sourceTree = "<group>"; };
+		C9D069F616116B1900A4FB42 /* iphone_background_0102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_background_0102.jpg; sourceTree = "<group>"; };
 		C9DF997F16114AAE0096A9C4 /* DrawMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DF998316114AAE0096A9C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9DF998516114AAE0096A9C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +62,10 @@
 		C9DF999716114AAE0096A9C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C9DF999916114AAE0096A9C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C9DF999C16114AAE0096A9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C9DF999E16114AAE0096A9C4 /* MPMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMViewController.h; sourceTree = "<group>"; };
-		C9DF999F16114AAE0096A9C4 /* MPMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMViewController.m; sourceTree = "<group>"; };
+		C9DF999E16114AAE0096A9C4 /* MPMMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMMenuViewController.h; sourceTree = "<group>"; };
+		C9DF999F16114AAE0096A9C4 /* MPMMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMMenuViewController.m; sourceTree = "<group>"; };
+		C9DF99AE161150EA0096A9C4 /* MPMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMSettingsViewController.h; sourceTree = "<group>"; };
+		C9DF99AF161150EA0096A9C4 /* MPMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +82,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9D069E71611621800A4FB42 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C9D069E21611590200A4FB42 /* button-create.gif */,
+				C9D069E31611590200A4FB42 /* button-explore.gif */,
+				C9DF999E16114AAE0096A9C4 /* MPMMenuViewController.h */,
+				C9DF999F16114AAE0096A9C4 /* MPMMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C9D069E81611622800A4FB42 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF99AE161150EA0096A9C4 /* MPMSettingsViewController.h */,
+				C9DF99AF161150EA0096A9C4 /* MPMSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		C9D069EC1611632300A4FB42 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				C9D069E91611631F00A4FB42 /* MPMDrawingViewController.h */,
+				C9D069EA1611631F00A4FB42 /* MPMDrawingViewController.m */,
+				C9D069F11611696E00A4FB42 /* Images */,
+			);
+			name = Drawing;
+			sourceTree = "<group>";
+		};
+		C9D069F11611696E00A4FB42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9D069ED1611696800A4FB42 /* DarkGreen.png */,
+				C9D069EE1611696800A4FB42 /* DarkOrange.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C9D069F516116A9900A4FB42 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				C9D069F216116A9400A4FB42 /* MPMExploreViewController.h */,
+				C9D069F316116A9400A4FB42 /* MPMExploreViewController.m */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
 		C9DF997416114AAE0096A9C4 = {
 			isa = PBXGroup;
 			children = (
+				C96B3F501611A5C600EB2045 /* green.png */,
+				C96B3F4916119EA000EB2045 /* icon57.png */,
+				C96B3F4716119E6E00EB2045 /* outside-icon.png */,
+				C9D069F616116B1900A4FB42 /* iphone_background_0102.jpg */,
+				C9D069DD1611568400A4FB42 /* background@2x.png */,
+				C9D069E01611580A00A4FB42 /* button.png */,
 				C9DF998916114AAE0096A9C4 /* DrawMe */,
 				C9DF998216114AAE0096A9C4 /* Frameworks */,
 				C9DF998016114AAE0096A9C4 /* Products */,
@@ -86,8 +170,10 @@
 				C9DF999216114AAE0096A9C4 /* MPMAppDelegate.h */,
 				C9DF999316114AAE0096A9C4 /* MPMAppDelegate.m */,
 				C9DF999B16114AAE0096A9C4 /* MainStoryboard.storyboard */,
-				C9DF999E16114AAE0096A9C4 /* MPMViewController.h */,
-				C9DF999F16114AAE0096A9C4 /* MPMViewController.m */,
+				C9D069F516116A9900A4FB42 /* Explore */,
+				C9D069EC1611632300A4FB42 /* Drawing */,
+				C9D069E81611622800A4FB42 /* Settings */,
+				C9D069E71611621800A4FB42 /* Menu */,
 				C9DF998A16114AAE0096A9C4 /* Supporting Files */,
 			);
 			path = DrawMe;
@@ -164,6 +250,16 @@
 				C9DF999816114AAE0096A9C4 /* Default@2x.png in Resources */,
 				C9DF999A16114AAE0096A9C4 /* Default-568h@2x.png in Resources */,
 				C9DF999D16114AAE0096A9C4 /* MainStoryboard.storyboard in Resources */,
+				C9D069DE1611568400A4FB42 /* background@2x.png in Resources */,
+				C9D069E11611580A00A4FB42 /* button.png in Resources */,
+				C9D069E41611590200A4FB42 /* button-create.gif in Resources */,
+				C9D069E51611590200A4FB42 /* button-explore.gif in Resources */,
+				C9D069EF1611696800A4FB42 /* DarkGreen.png in Resources */,
+				C9D069F01611696800A4FB42 /* DarkOrange.png in Resources */,
+				C9D069F716116B1900A4FB42 /* iphone_background_0102.jpg in Resources */,
+				C96B3F4816119E6E00EB2045 /* outside-icon.png in Resources */,
+				C96B3F4A16119EA000EB2045 /* icon57.png in Resources */,
+				C96B3F511611A5C600EB2045 /* green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +272,10 @@
 			files = (
 				C9DF999016114AAE0096A9C4 /* main.m in Sources */,
 				C9DF999416114AAE0096A9C4 /* MPMAppDelegate.m in Sources */,
-				C9DF99A016114AAE0096A9C4 /* MPMViewController.m in Sources */,
+				C9DF99A016114AAE0096A9C4 /* MPMMenuViewController.m in Sources */,
+				C9DF99B0161150EA0096A9C4 /* MPMSettingsViewController.m in Sources */,
+				C9D069EB1611631F00A4FB42 /* MPMDrawingViewController.m in Sources */,
+				C9D069F416116A9400A4FB42 /* MPMExploreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +353,14 @@
 		C9DF99A416114AAE0096A9C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = Jailbreak;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Jailbreak;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrawMe/DrawMe-Prefix.pch";
 				INFOPLIST_FILE = "DrawMe/DrawMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,10 +368,14 @@
 		C9DF99A516114AAE0096A9C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = Jailbreak;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Jailbreak;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrawMe/DrawMe-Prefix.pch";
 				INFOPLIST_FILE = "DrawMe/DrawMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -292,6 +399,7 @@
 				C9DF99A516114AAE0096A9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

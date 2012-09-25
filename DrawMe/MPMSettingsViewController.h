@@ -1,5 +1,5 @@
 //
-//  MPMViewController.h
+//  MPMSettingsViewController.h
 //  DrawMe
 //
 //  Created by Matt McInnes on 25/09/12.
@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPMViewController : UIViewController
-
+@interface MPMSettingsViewController : UIViewController
 @end

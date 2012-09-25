@@ -6,16 +6,19 @@
 //  Copyright (c) 2012 Matt McInnes. All rights reserved.
 //
 
-#import "MPMViewController.h"
+#import "MPMMenuViewController.h"
 
-@interface MPMViewController ()
+@interface MPMMenuViewController ()
 
 @end
 
-@implementation MPMViewController
+@implementation MPMMenuViewController
 
 - (void)viewDidLoad
 {
+    //set view background NTS..Remove @2x when finished
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background@2x.png"]];
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
