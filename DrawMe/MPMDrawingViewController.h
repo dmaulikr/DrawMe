@@ -51,6 +51,7 @@
 - (IBAction)savetodocs:(id)sender;
 - (IBAction)uploadit:(id)sender;
 - (IBAction)edit:(id)sender;
+- (IBAction)backtohome:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UILabel *label;
 

@@ -8,13 +8,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DrawMe/MPMDrawingViewController.m"
-         timestampString = "370339514.383185"
+         timestampString = "370342804.681434"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "419"
          endingLineNumber = "419"
-         landmarkName = "@implementation MPMDrawingViewController"
-         landmarkType = "3">
+         landmarkName = "-backtohome:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"

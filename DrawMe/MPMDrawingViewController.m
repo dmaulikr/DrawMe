@@ -124,8 +124,8 @@
     UIActionSheet *actionSheet1 = [[UIActionSheet alloc]  initWithTitle:@""
                                                              delegate:self
                                                     cancelButtonTitle:nil
-                                               destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"Reset", @"Show Colours", @"Hide Colours", @"Save to Camera Roll", @"Upload to gallery", @"Cancel", nil];
+                                               destructiveButtonTitle:@"Reset"
+                                                    otherButtonTitles:@"Show Colours", @"Hide Colours", @"Save to Camera Roll", @"Upload to gallery", @"Cancel", nil];
     [actionSheet1 showInView:self.view];
     
 }
@@ -416,4 +416,6 @@ UIActionSheet *actionSheet2;
     self.rubber.hidden = NO;
 }
 
+- (IBAction)backtohome:(id)sender {
+}
 @end
