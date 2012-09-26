@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DrawMe/MPMDrawingViewController.m"
-         timestampString = "370334866.33156"
+         timestampString = "370339514.383185"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "369"
-         endingLineNumber = "369"
+         startingLineNumber = "419"
+         endingLineNumber = "419"
          landmarkName = "@implementation MPMDrawingViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DrawMe/MPMDrawingViewController.m"
-         timestampString = "370331603.986186"
+         timestampString = "370339514.383185"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "171"
-         endingLineNumber = "171"
+         startingLineNumber = "246"
+         endingLineNumber = "246"
          landmarkName = "-touchesBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
