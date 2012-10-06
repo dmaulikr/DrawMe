@@ -24,8 +24,25 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    UIApplication *app = [UIApplication sharedApplication];
+    
+    // Remove all prior notifications
+    NSArray *scheduled = [app scheduledLocalNotifications];
+    if (scheduled.count)
+        [app cancelAllLocalNotifications];
+    
+    // Create a new notification
+    UILocalNotification* alarm = [[UILocalNotification alloc] init];
+    if (alarm)
+    {
+        alarm.fireDate = [NSDate dateWithTimeIntervalSinceNow:60.0f];
+        alarm.timeZone = [NSTimeZone defaultTimeZone];
+        alarm.repeatInterval = 0;
+        alarm.alertBody = @"Remeber to save your drawing if you haven't.";
+        [app scheduleLocalNotification:alarm];
+        ;
+    }
+
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

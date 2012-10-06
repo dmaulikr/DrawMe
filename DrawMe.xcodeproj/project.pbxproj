@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9214ACE162015BD0043D0A5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9214ACC162015BD0043D0A5 /* icon.png */; };
+		C9214ACF162015BD0043D0A5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9214ACD162015BD0043D0A5 /* icon@2x.png */; };
 		C925AE821612D8CC002EAD70 /* menu-drawing.png in Resources */ = {isa = PBXBuildFile; fileRef = C925AE811612D8CC002EAD70 /* menu-drawing.png */; };
 		C925AE841612EFC2002EAD70 /* button-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C925AE831612EFC2002EAD70 /* button-menu.png */; };
 		C96B3F4816119E6E00EB2045 /* outside-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C96B3F4716119E6E00EB2045 /* outside-icon.png */; };
@@ -58,6 +60,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9214ACC162015BD0043D0A5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C9214ACD162015BD0043D0A5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		C925AE811612D8CC002EAD70 /* menu-drawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-drawing.png"; sourceTree = "<group>"; };
 		C925AE831612EFC2002EAD70 /* button-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-menu.png"; sourceTree = "<group>"; };
 		C96B3F4716119E6E00EB2045 /* outside-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outside-icon.png"; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 		C9DF997416114AAE0096A9C4 = {
 			isa = PBXGroup;
 			children = (
+				C9214ACC162015BD0043D0A5 /* icon.png */,
+				C9214ACD162015BD0043D0A5 /* icon@2x.png */,
 				C96B3F501611A5C600EB2045 /* green.png */,
 				C96B3F4916119EA000EB2045 /* icon57.png */,
 				C96B3F4716119E6E00EB2045 /* outside-icon.png */,
@@ -364,6 +370,8 @@
 				C96B3F861611CAE500EB2045 /* Yellow.png in Resources */,
 				C925AE821612D8CC002EAD70 /* menu-drawing.png in Resources */,
 				C925AE841612EFC2002EAD70 /* button-menu.png in Resources */,
+				C9214ACE162015BD0043D0A5 /* icon.png in Resources */,
+				C9214ACF162015BD0043D0A5 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +470,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrawMe/DrawMe-Prefix.pch";
 				INFOPLIST_FILE = "DrawMe/DrawMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -477,6 +486,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrawMe/DrawMe-Prefix.pch";
 				INFOPLIST_FILE = "DrawMe/DrawMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
